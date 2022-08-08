@@ -1,4 +1,5 @@
 import React, { useState,useEffect } from 'react'
+import "./triplist.css"
 
 export default function Triplist() {
     const [trips, setTrips]=useState([]);
